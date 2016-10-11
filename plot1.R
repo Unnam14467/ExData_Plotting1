@@ -1,4 +1,4 @@
-
+#We are in directory with data
 Data <- read.csv("household_power_consumption.txt",sep=";",stringsAsFactors=FALSE)
 Data$Date <- as.Date(Data$Date,"%d/%m/%Y")
 
